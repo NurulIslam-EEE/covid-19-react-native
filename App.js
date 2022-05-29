@@ -62,16 +62,16 @@ export default function App() {
         <View style={styles.health}>
           <View>
           <Image source={require("./assets/images/one.png")} />
-          <Text style={{textAlign:'center'}}> Avoid close {`\n`} contact</Text>
+          <Text style={{textAlign:'center',marginTop:15}}> Avoid close {`\n`} contact</Text>
           </View>
           <View>
           
           <Image source={require("./assets/images/two.png")} />
-          <Text style={{textAlign:'center'}}> Clean your {`\n`} hands often</Text>
+          <Text style={{textAlign:'center',marginTop:15}}> Clean your {`\n`} hands often</Text>
           </View>
           <View>
           <Image source={require("./assets/images/three.png")} />
-          <Text style={{textAlign:'center'}}> Wear a {`\n`} facemask</Text>
+          <Text style={{textAlign:'center',marginTop:15}}> Wear a {`\n`} facemask</Text>
           </View>
          
         </View>
